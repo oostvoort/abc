@@ -1,0 +1,369 @@
+{
+  "heroes": [
+    {
+      "attack": 1,
+      "health": 2,
+      "image": "/1.jpg",
+      "name": "Hero A"
+    },
+    {
+      "attack": 2,
+      "health": 2,
+      "image": "/2.jpg",
+      "name": "Hero B"
+    },
+    {
+      "attack": 3,
+      "health": 7,
+      "image": "/3.jpg",
+      "name": "Hero C"
+    },
+    {
+      "attack": 4,
+      "health": 6,
+      "image": "/4.jpg",
+      "name": "Hero D"
+    },
+    {
+      "attack": 4,
+      "health": 3,
+      "image": "/7.jpg",
+      "name": "Hero E"
+    },
+    {
+      "attack": 6,
+      "health": 7,
+      "image": "/8.jpg",
+      "name": "Hero F"
+    },
+    {
+      "attack": 2,
+      "health": 3,
+      "image": "/9.jpg",
+      "name": "Hero G"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/10.jpg",
+      "name": "Hero H"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/11.jpg",
+      "name": "Hero I"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/12.jpg",
+      "name": "Hero J"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/1.jpg",
+      "name": "Hero K"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/2.jpg",
+      "name": "Hero L"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/3.jpg",
+      "name": "Hero M"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/4.jpg",
+      "name": "Hero N"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/7.jpg",
+      "name": "Hero O"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/8.jpg",
+      "name": "Hero P"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/9.jpg",
+      "name": "Hero Q"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/10.jpg",
+      "name": "Hero R"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/11.jpg",
+      "name": "Hero S"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/12.jpg",
+      "name": "Hero T"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/1.jpg",
+      "name": "Hero U"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/2.jpg",
+      "name": "Hero V"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/6.jpg",
+      "name": "Hero W"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/3.jpg",
+      "name": "Hero X"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/4.jpg",
+      "name": "Hero Y"
+    },
+    {
+      "attack": 8,
+      "health": 3,
+      "image": "/7.jpg",
+      "name": "Hero Z"
+    }
+  ],
+  "items": [
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 1,
+      "debuff_health": 2,
+      "image": "/item_default.png",
+      "name": "Item A"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 2,
+      "debuff_health": 2,
+      "image": "/item_default.png",
+      "name": "Item B"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 3,
+      "debuff_health": 7,
+      "image": "/item_default.png",
+      "name": "Item C"
+    },{
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 4,
+      "debuff_health": 6,
+      "image": "/item_default.png",
+      "name": "Item D"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 4,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item E"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 6,
+      "debuff_health": 7,
+      "image": "/item_default.png",
+      "name": "Item F"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 2,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item G"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item H"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item I"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item J"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item K"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item L"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item M"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item N"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item O"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item P"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item Q"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item R"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item S"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item T"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item U"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item V"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item W"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item X"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item Y"
+    },
+    {
+      "buff_attack": 0,
+      "buff_health": 0,
+      "debuff_attack": 8,
+      "debuff_health": 3,
+      "image": "/item_default.png",
+      "name": "Item Z"
+    }
+  ]
+}

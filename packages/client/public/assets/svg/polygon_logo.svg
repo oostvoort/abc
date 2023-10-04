@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="39.5" cy="39.5" r="39.5" transform="translate(0.402 -0.351)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_246" data-name="Group 246" transform="translate(-905.289 -541.536)">
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="62" cy="62" r="62" transform="translate(905.289 541.536)" fill="#fff"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="59" cy="59" r="59" transform="translate(908.289 544.536)" fill="#8247e5"/>
+    <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(927.887 563.887)" clip-path="url(#clip-path)">
+      <g id="polygon-matic-logo" transform="translate(6.601 10.585)">
+        <path id="Path_8" data-name="Path 8" d="M49.532,17.462a4.352,4.352,0,0,0-4.1,0L35.868,23.1l-6.49,3.587-9.394,5.636a4.352,4.352,0,0,1-4.1,0L8.54,27.881a4.163,4.163,0,0,1-2.05-3.587v-8.54a4.213,4.213,0,0,1,2.05-3.587L15.885,7.9a4.352,4.352,0,0,1,4.1,0l7.344,4.441a4.163,4.163,0,0,1,2.05,3.587v5.636l6.49-3.758V12a4.213,4.213,0,0,0-2.05-3.587L20.155.382a4.352,4.352,0,0,0-4.1,0L2.05,8.58A3.757,3.757,0,0,0,0,12V28.052a4.213,4.213,0,0,0,2.05,3.587l13.835,8.028a4.352,4.352,0,0,0,4.1,0L29.378,34.2l6.49-3.758,9.394-5.466a4.352,4.352,0,0,1,4.1,0l7.344,4.27a4.163,4.163,0,0,1,2.05,3.587v8.54a4.213,4.213,0,0,1-2.05,3.587l-7.174,4.27a4.352,4.352,0,0,1-4.1,0l-7.344-4.27a4.163,4.163,0,0,1-2.05-3.587V35.909l-6.49,3.758V45.3a4.213,4.213,0,0,0,2.05,3.587l13.835,8.028a4.352,4.352,0,0,0,4.1,0l13.835-8.028a4.163,4.163,0,0,0,2.05-3.587V29.076a4.213,4.213,0,0,0-2.05-3.587Z" transform="translate(0 0.131)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

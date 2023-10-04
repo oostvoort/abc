@@ -1,0 +1,18 @@
+query getEntities {
+  entities(keys:["%"]) {
+    totalCount
+    edges {
+      node {
+        id
+        keys
+        components {
+          ... on Counter {
+            value
+            __typename
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "name": "contracts-dojo",
+  "private": true,
+  "scripts": {
+    "start:katana": "katana",
+    "deploy:contracts": "wait-port localhost:5050 && scarb run init",
+    "dev": "concurrently -n katana,deployment -c yellow,blue \"pnpm start:katana\" \"pnpm deploy:contracts\""
+  },
+  "devDependencies": {
+    "wait-port": "^1.0.4",
+    "concurrently": "^8.0.1"
+  }
+}

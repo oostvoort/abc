@@ -1,0 +1,86 @@
+{
+  "world": {
+    "name": "world",
+    "address": null,
+    "class_hash": "0x1527b232cbd77c7f021fdc129339d7623edfd9a9c79a1b9add29c9064961497"
+  },
+  "executor": {
+    "name": "executor",
+    "address": null,
+    "class_hash": "0x7b79892389a0c9fe22f74b1d28a9e9185c7b6d2c60cc1df814053e47e9078c2"
+  },
+  "systems": [
+    {
+      "name": "increment",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "@dojo_examples::systems::increment::ContractState"
+        },
+        {
+          "name": "index",
+          "type": "core::integer::u8"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "core::integer::u32"
+        }
+      ],
+      "class_hash": "0x109a940e1f29eb47e188824b4246d67dacd73fab331f5dc990a86a84c2a4057",
+      "dependencies": []
+    },
+    {
+      "name": "library_call",
+      "inputs": [
+        {
+          "name": "self",
+          "type": "@dojo::world::library_call::ContractState"
+        },
+        {
+          "name": "class_hash",
+          "type": "core::starknet::class_hash::ClassHash"
+        },
+        {
+          "name": "entrypoint",
+          "type": "core::felt252"
+        },
+        {
+          "name": "calladata",
+          "type": "core::array::Span::<core::felt252>"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "core::array::Span::<core::felt252>"
+        }
+      ],
+      "class_hash": "0x5c3f8568adfef908692f02fcfcc80e303c237183fe864f6cff8c34d29d3f130",
+      "dependencies": []
+    }
+  ],
+  "contracts": [],
+  "components": [
+    {
+      "name": "Counter",
+      "members": [
+        {
+          "name": "player_id",
+          "type": "felt252",
+          "key": true
+        },
+        {
+          "name": "index",
+          "type": "u8",
+          "key": true
+        },
+        {
+          "name": "value",
+          "type": "u32",
+          "key": false
+        }
+      ],
+      "class_hash": "0x17b18564bd0b4eb6b8a949ce451a5df4e0cceb9e1edb352a37882c044a606e1"
+    }
+  ]
+}
