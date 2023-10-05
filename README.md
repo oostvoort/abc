@@ -40,6 +40,11 @@ pnpm install
 pnpm dev
 ```
 
+Endpoint
+http://localhost:3000/ for client
+http://localhost:8545/ for anvil-rpc
+http://localhost:5050/ for katana
+
 >_Note: Make sure that you are running this code on the root directory of your application_
 
 >_Note: Make sure that all requisites are running, (MUD Contract, Client, Dojo, Katana, Torii)_
