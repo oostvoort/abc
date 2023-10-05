@@ -13,9 +13,16 @@ https://nodejs.org/en/download
 npm install -g pnpm
 ```
 3. Dojo: https://book.dojoengine.org/getting-started/quick-start.html
+curl -L https://install.dojoengine.org | bash
+dojoup
+
+   
 4. Rust: https://www.rust-lang.org/tools/install
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+   
 5. Foundry: https://book.getfoundry.sh/getting-started/installation
-### Installation
+
 
 ___
 ```bash
