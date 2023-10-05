@@ -14,7 +14,7 @@ npm install -g pnpm
 ```
 3. Dojo: https://book.dojoengine.org/getting-started/quick-start.html
 4. Rust: https://www.rust-lang.org/tools/install
-5. Foundry: https://foundryvtt.com/article/installation/
+5. Foundry: https://book.getfoundry.sh/getting-started/installation
 ### Installation
 
 ___
