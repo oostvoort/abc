@@ -13,9 +13,22 @@ https://nodejs.org/en/download
 npm install -g pnpm
 ```
 3. Dojo: https://book.dojoengine.org/getting-started/quick-start.html
+```bash
+curl -L https://install.dojoengine.org | bash
+dojoup
+```
+
 4. Rust: https://www.rust-lang.org/tools/install
-5. Foundry: https://foundryvtt.com/article/installation/
-### Installation
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+5. Foundry: https://book.getfoundry.sh/getting-started/installation
+```bash
+# Installs all dependency of the application
+curl -L https://foundry.paradigm.xyz | bash
+foundryup
+```
 
 ___
 ```bash
@@ -26,6 +39,14 @@ pnpm install
 # Runs all dev commands from contracts, and client concurrently
 pnpm dev
 ```
+
+Endpoints
+```bash
+http://localhost:3000/ for client
+http://localhost:8545/ for anvil-rpc
+http://localhost:5050/ for katana
+```
+
 
 >_Note: Make sure that you are running this code on the root directory of your application_
 
