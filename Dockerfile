@@ -19,7 +19,10 @@ WORKDIR /app
 # COPY package.json pnpm-lock.yaml ./
 COPY . .
 # Install application dependencies
-RUN pnpm install
+RUN pnpm i --force # added `--force` as a work around to automatically accept prompts
+
+# Build
+RUN pnpm build
 
 # Copy the rest of the application files
 

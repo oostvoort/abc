@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "pnpm run build:mud && pnpm run build:abi && pnpm run build:typechain",
+    "build": "PATH=/root/.foundry/bin/:$PATH forge --version && pnpm run build:mud && pnpm run build:abi && pnpm run build:typechain",
     "build:abi": "forge build",
     "build:mud": "mud tablegen && mud worldgen",
     "build:typechain": "rimraf types && typechain --target=ethers-v5 out/IWorld.sol/IWorld.json",
