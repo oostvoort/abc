@@ -151,7 +151,7 @@ jobs:
                 --path chart/  \
                 --revision ${VERSION:1} \
                 --helm-chart abc \
-                --dest-namespace $PROJECTNAME \
+                --dest-namespace abc-main \
                 --dest-server https://kubernetes.default.svc \
                 --helm-set-string dockerImage=oostvoort/abc:${VERSION} \
                 --upsert \
