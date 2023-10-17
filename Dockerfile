@@ -26,13 +26,9 @@ RUN pnpm install
 RUN pnpm prepare
 RUN pnpm build
 
-FROM caddy:2.7.5-alpine
 
-# Copy built app to caddy directory
-COPY --from=builder /app/packages/client/dist /usr/share/caddy
+FROM caddy:2.4.5
+COPY --from=builder /app/packages/client/dist /var/www/
+COPY --from=builder /app/Caddyfile /etc/caddy/Caddyfile
+COPY --from=builder /app/caddy /caddy
 
-# Create Caddyfile
-RUN echo ":8080 {\n root * /usr/share/caddy\n file_server\n}" > /etc/caddy/Caddyfile
-
-# Run Caddy
-ENTRYPOINT ["caddy", "run", "--config", "/etc/caddy/Caddyfile"]
