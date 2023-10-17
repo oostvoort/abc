@@ -52,4 +52,10 @@ const forkserver = {
 }
 
 // If you are deploying to chains other than anvil or Lattice testnet, add them here
-export const supportedChains: MUDChain[] = [mudFoundry, forkserver, polygonMumbaiOverride, latticeTestnet];
+let supportedChains: MUDChain[] = [forkserver, polygonMumbaiOverride, latticeTestnet];
+
+if (import.meta.env.DEV) {
+  supportedChains = [mudFoundry, ...supportedChains]
+}
+
+export { supportedChains }
