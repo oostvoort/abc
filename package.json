@@ -9,6 +9,7 @@
     "dev:contracts-dojo": "pnpm --filter 'contracts-dojo' dev",
     "setup:players": "pnpm --filter 'contracts' setup:players",
     "foundry:up": "curl -L https://foundry.paradigm.xyz | bash && bash $HOME/.foundry/bin/foundryup",
+    "prepare": "(forge --version || pnpm foundry:up)",
     "mud:up": "pnpm mud set-version --tag main && pnpm install",
     "test": "pnpm recursive run test"
   },
