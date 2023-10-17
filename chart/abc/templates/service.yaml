@@ -11,3 +11,17 @@ spec:
    port: {{ .Values.webappContainerService.port }}
  selector:
    app: {{ .Values.projectName }}-{{ .Values.nameSpace }}-{{ .Values.appType.frontend }}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+ name: {{ .Values.projectName }}-{{ .Values.nameSpace }}-{{ .Values.appType.frontend }}-anvil
+ namespace: {{ .Values.projectName }}-{{ .Values.nameSpace }}
+spec:
+ type: {{ .Values.anvilContainerService.type }}
+ ports:
+ - targetPort: {{ .Values.anvilContainerService.port }}
+   port: {{ .Values.anvilContainerService.port }}
+ selector:
+   app: {{ .Values.projectName }}-{{ .Values.nameSpace }}-{{ .Values.appType.frontend }}

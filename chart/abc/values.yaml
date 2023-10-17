@@ -13,6 +13,9 @@ webappContainerService:
   type: ClusterIP  # {{ .Values.webappContainerService.type }}
   port: 2015       # {{ .Values.webappContainerService.port }}
 
+anvilContainerService:
+  type: ClusterIP  # {{ .Values.anvilContainerService.type }}
+  port: 8545       # {{ .Values.anvilContainerService.port }}
 
 
 domainName: oostvoort.work                # {{ .Values.domainName }}
