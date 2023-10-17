@@ -18,6 +18,6 @@ webappContainerService:
 domainName: oostvoort.work                # {{ .Values.domainName }}
 
 subDomainName: 
-  dojorps: abc.dev.aw                 # {{ .Values.subDomainName.dojorps }}
+  abc: abc.aw                 # {{ .Values.subDomainName.abc }}
 
 dockerImage: oostvoort/abc:latest
