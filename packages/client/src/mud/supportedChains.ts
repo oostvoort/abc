@@ -58,4 +58,9 @@ if (import.meta.env.DEV) {
   supportedChains = [mudFoundry, ...supportedChains]
 }
 
-export { supportedChains }
+const defaultChainId = supportedChains[0].id
+
+export {
+  supportedChains,
+  defaultChainId
+}

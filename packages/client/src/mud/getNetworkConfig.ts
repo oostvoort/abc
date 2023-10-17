@@ -1,12 +1,12 @@
 import { getBurnerWallet } from "@latticexyz/std-client";
 import worldsJson from "contracts/worlds.json";
-import { supportedChains } from "./supportedChains";
+import { supportedChains, defaultChainId } from "./supportedChains";
 
 const worlds = worldsJson as Partial<Record<string, { address: string; blockNumber?: number }>>;
 
 export async function getNetworkConfig() {
   const params = new URLSearchParams(window.location.search);
-  const chainId = Number(params.get("chainId") || params.get("chainid") || import.meta.env.VITE_CHAIN_ID || 31337);
+  const chainId = Number(params.get("chainId") || params.get("chainid") || import.meta.env.VITE_CHAIN_ID || defaultChainId);
   const chainIndex = supportedChains.findIndex((c) => c.id === chainId);
   const chain = supportedChains[chainIndex];
   if (!chain) {
