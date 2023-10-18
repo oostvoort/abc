@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   abc:
   - apiVersion: v2
+    appVersion: 0.0.9
+    created: "2023-10-18T01:28:46.515020096Z"
+    description: A Helm chart for Kubernetes
+    digest: 0a07af8c3814b4e5ec23112ba6e9690f552d579f45ef7fb9f063b29b635a0741
+    name: abc
+    type: application
+    urls:
+    - https://github.com/oostvoort/abc/releases/download/abc-0.0.9/abc-0.0.9.tgz
+    version: 0.0.9
+  - apiVersion: v2
     appVersion: 0.0.8
     created: "2023-10-18T01:11:34.174777281Z"
     description: A Helm chart for Kubernetes
@@ -71,4 +81,4 @@ entries:
     urls:
     - https://github.com/oostvoort/abc/releases/download/abc-0.0.2/abc-0.0.2.tgz
     version: 0.0.2
-generated: "2023-10-18T01:11:34.174804383Z"
+generated: "2023-10-18T01:28:46.515048897Z"
