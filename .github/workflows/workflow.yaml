@@ -126,6 +126,8 @@ jobs:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Create GitHub Release
+        env:
+         GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         run: |
           gh release create ${{ github.ref }} your-artifact.zip -t ${{ github.ref }} -n "Release notes for ${{ github.ref }}"   
 
