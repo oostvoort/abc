@@ -129,7 +129,9 @@ jobs:
         env:
          GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         run: |
-          gh release create ${{ github.ref }} -t ${{ github.ref }} -n "Release notes for ${{ github.ref }}"
+          TAG=${{ github.ref }} 
+          VERSION=${TAG#refs/tags/}     
+          gh release create $VERSION -t $VERSION -n "Release notes for $VERSION"
 
 
 
