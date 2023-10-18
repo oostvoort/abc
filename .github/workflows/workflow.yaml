@@ -129,7 +129,7 @@ jobs:
         env:
          GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         run: |
-          gh release create ${{ github.ref }} your-artifact.zip -t ${{ github.ref }} -n "Release notes for ${{ github.ref }}"   
+          gh release create ${{ github.ref }} -t ${{ github.ref }} -n "Release notes for ${{ github.ref }}"
 
 
 
