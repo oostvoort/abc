@@ -116,7 +116,7 @@ jobs:
           mkdir -p .cr-release-packages
           helm package chart/abc --app-version=${VERSION:1} --version=${VERSION:1} --destination=.cr-release-packages
 
-      - name: Run chart-releaser
+      - name: Run Helm chart-releaser
         # switch back to helm/chart-releaser-action if this contribution is ever mergedd
         # uses: askcloudarchitech/chart-releaser-action@skip-packaging-option
         uses: helm/chart-releaser-action@v1.5.0
@@ -124,6 +124,10 @@ jobs:
           skip_packaging: true
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Create GitHub Release
+        run: |
+          gh release create ${{ github.ref }} your-artifact.zip -t ${{ github.ref }} -n "Release notes for ${{ github.ref }}"   
 
 
 
